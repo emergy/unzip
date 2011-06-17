@@ -1,0 +1,7 @@
+INSTALL
+----------------
+git clone git://github.com/emergy/rus-unzip-6.0.git
+cd rus-unzip-6.0
+make -f unix/Makefile LF2="-ldl -lrcc" LOCAL_UNZIP="" linux_noasm
+make install 
+    or checkinstall -D
